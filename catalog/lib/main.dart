@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'IMG.LY for Flutter',
-      home: MyHomePage(title: 'IMG.LY for Flutter'),
+      title: 'Abhi Photo & Video Editors POC',
+      home: MyHomePage(title: 'Abhi Photo & Video Editors POC'),
     );
   }
 }

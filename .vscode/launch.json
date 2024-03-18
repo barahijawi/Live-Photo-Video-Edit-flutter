@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+       
+        {
+            "name": "Bhuvan IOS catalog",
+            "cwd": "catalog",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "00008120-000A74D91E0B401E"
+        },
+        {
+            "name": "IOS catalog",
+            "cwd": "catalog",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "00008110-001E58EC2198801E"
+        },
+        {
+            "name": "Android catalog",
+            "cwd": "catalog",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "catalog (profile mode)",
+            "cwd": "catalog",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "catalog (release mode)",
+            "cwd": "catalog",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "catalog_ui",
+            "cwd": "catalog_ui",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "00008110-001E58EC2198801E"
+        },
+        {
+            "name": "catalog_ui (profile mode)",
+            "cwd": "catalog_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "catalog_ui (release mode)",
+            "cwd": "catalog_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -113,134 +113,134 @@ final examplesPESDK = [
         "Presents the photo editor and saves the exported photo to a Base64 encoded string.",
         SavePhotoBase64Example())
   ]),
-  Section("Saving State", [
-    Example(
-        "Serialization",
-        "Presents a photo editor, serializes all edits and prints the output to the debugging console.",
-        PhotoSerializationExample())
-  ]),
-  Section("Restoring State", [
-    Example(
-        "Deserialization",
-        "Loads a serialized JSON file from the app bundle and presents a photo editor with state restored.",
-        PhotoDeserializationExample())
-  ]),
-  Section("Editor Configuration", [
-    Example(
-        "Custom Snapping",
-        "Presents a photo editor modally using a custom snapping configuration.",
-        PhotoSnappingConfigurationExample()),
-    Example(
-        "Single Tool",
-        "Presents a photo editor modally using the single tool mode.",
-        PhotoSingleToolExample())
-  ]),
-  Section("Transform Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom transform tool configuration.",
-        PhotoTransformConfigurationExample())
-  ]),
-  Section("Filter Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom filter tool configuration.",
-        PhotoFilterConfigurationExample()),
-    Example(
-        "Add filter from local path",
-        "Loads filters from the app bundle and presents a photo editor modally.",
-        PhotoFilterLocalExample()),
-    Example(
-        "Add filter from remote URL",
-        "Loads filters from a remote URL and presents a photo editor modally.",
-        PhotoFilterRemoteExample()),
-  ]),
-  Section("Adjustment Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom adjustment tool configuration.",
-        PhotoAdjustmentsConfigurationExample())
-  ]),
-  Section("Focus Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom focus tool configuration.",
-        PhotoFocusConfigurationExample())
-  ]),
-  Section("Sticker Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom sticker tool configuration.",
-        PhotoStickerConfigurationExample()),
-    Example(
-        "Add sticker from app bundle",
-        "Loads stickers from the app bundle and presents a photo editor modally.",
-        PhotoStickerLocalExample()),
-    Example(
-        "Add sticker from remote URL",
-        "Loads stickers from a remote URL and presents a photo editor modally.",
-        PhotoStickerRemoteExample()),
-  ]),
-  Section("Text Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom text tool configuration.",
-        PhotoTextConfigurationExample()),
-    Example(
-        "Add font from app bundle",
-        "Loads fonts from the app bundle and presents a photo editor modally.",
-        PhotoTextLocalExample()),
-    Example(
-        "Add font from remote URL",
-        "Loads fonts from a remote URL and presents a photo editor modally.",
-        PhotoTextRemoteExample()),
-  ]),
-  Section("Text Design Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom text design tool configuration.",
-        PhotoTextDesignConfigurationExample()),
-  ]),
-  Section("Overlay Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom overlay tool configuration.",
-        PhotoOverlayConfigurationExample()),
-    Example(
-        "Add overlay from app bundle",
-        "Loads overlays from the app bundle and presents a photo editor modally.",
-        PhotoOverlayLocalExample()),
-    Example(
-        "Add overlay from remote URL",
-        "Loads overlays from a remote URL and presents a photo editor modally.",
-        PhotoOverlayRemoteExample()),
-  ]),
-  Section("Frame Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom frame tool configuration.",
-        PhotoFramesConfigurationExample()),
-    Example(
-        "Add frame from app bundle",
-        "Loads frames from the app bundle and presents a video editor modally.",
-        PhotoFramesLocalExample()),
-    Example(
-        "Add frame from remote URL",
-        "Loads frames from a remote URL and presents a video editor modally.",
-        PhotoFramesRemoteExample()),
-  ]),
-  Section("Brush Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a photo editor modally using a custom brush tool configuration.",
-        PhotoBrushConfigurationExample())
-  ]),
-  Section("Solutions Configuration", [
-    Example(
-        "Annotation",
-        "Presents a video editor modally that's configured to work for an annotation use case.",
-        PhotoAnnotationExample())
-  ]),
+  // Section("Saving State", [
+  //   Example(
+  //       "Serialization",
+  //       "Presents a photo editor, serializes all edits and prints the output to the debugging console.",
+  //       PhotoSerializationExample())
+  // ]),
+  // Section("Restoring State", [
+  //   Example(
+  //       "Deserialization",
+  //       "Loads a serialized JSON file from the app bundle and presents a photo editor with state restored.",
+  //       PhotoDeserializationExample())
+  // ]),
+  // Section("Editor Configuration", [
+  //   Example(
+  //       "Custom Snapping",
+  //       "Presents a photo editor modally using a custom snapping configuration.",
+  //       PhotoSnappingConfigurationExample()),
+  //   Example(
+  //       "Single Tool",
+  //       "Presents a photo editor modally using the single tool mode.",
+  //       PhotoSingleToolExample())
+  // ]),
+  // Section("Transform Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom transform tool configuration.",
+  //       PhotoTransformConfigurationExample())
+  // ]),
+  // Section("Filter Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom filter tool configuration.",
+  //       PhotoFilterConfigurationExample()),
+  //   Example(
+  //       "Add filter from local path",
+  //       "Loads filters from the app bundle and presents a photo editor modally.",
+  //       PhotoFilterLocalExample()),
+  //   Example(
+  //       "Add filter from remote URL",
+  //       "Loads filters from a remote URL and presents a photo editor modally.",
+  //       PhotoFilterRemoteExample()),
+  // ]),
+  // Section("Adjustment Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom adjustment tool configuration.",
+  //       PhotoAdjustmentsConfigurationExample())
+  // ]),
+  // Section("Focus Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom focus tool configuration.",
+  //       PhotoFocusConfigurationExample())
+  // ]),
+  // Section("Sticker Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom sticker tool configuration.",
+  //       PhotoStickerConfigurationExample()),
+  //   Example(
+  //       "Add sticker from app bundle",
+  //       "Loads stickers from the app bundle and presents a photo editor modally.",
+  //       PhotoStickerLocalExample()),
+  //   Example(
+  //       "Add sticker from remote URL",
+  //       "Loads stickers from a remote URL and presents a photo editor modally.",
+  //       PhotoStickerRemoteExample()),
+  // ]),
+  // Section("Text Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom text tool configuration.",
+  //       PhotoTextConfigurationExample()),
+  //   Example(
+  //       "Add font from app bundle",
+  //       "Loads fonts from the app bundle and presents a photo editor modally.",
+  //       PhotoTextLocalExample()),
+  //   Example(
+  //       "Add font from remote URL",
+  //       "Loads fonts from a remote URL and presents a photo editor modally.",
+  //       PhotoTextRemoteExample()),
+  // ]),
+  // Section("Text Design Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom text design tool configuration.",
+  //       PhotoTextDesignConfigurationExample()),
+  // ]),
+  // Section("Overlay Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom overlay tool configuration.",
+  //       PhotoOverlayConfigurationExample()),
+  //   Example(
+  //       "Add overlay from app bundle",
+  //       "Loads overlays from the app bundle and presents a photo editor modally.",
+  //       PhotoOverlayLocalExample()),
+  //   Example(
+  //       "Add overlay from remote URL",
+  //       "Loads overlays from a remote URL and presents a photo editor modally.",
+  //       PhotoOverlayRemoteExample()),
+  // ]),
+  // Section("Frame Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom frame tool configuration.",
+  //       PhotoFramesConfigurationExample()),
+  //   Example(
+  //       "Add frame from app bundle",
+  //       "Loads frames from the app bundle and presents a video editor modally.",
+  //       PhotoFramesLocalExample()),
+  //   Example(
+  //       "Add frame from remote URL",
+  //       "Loads frames from a remote URL and presents a video editor modally.",
+  //       PhotoFramesRemoteExample()),
+  // ]),
+  // Section("Brush Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a photo editor modally using a custom brush tool configuration.",
+  //       PhotoBrushConfigurationExample())
+  // ]),
+  // Section("Solutions Configuration", [
+  //   Example(
+  //       "Annotation",
+  //       "Presents a video editor modally that's configured to work for an annotation use case.",
+  //       PhotoAnnotationExample())
+  // ]),
 ];
 
 final examplesVESDK = [
@@ -284,170 +284,170 @@ final examplesVESDK = [
         "Presents the video editor and saves the exported video to a Base64 encoded string.",
         SaveVideoBase64Example())
   ]),
-  Section("Saving State", [
-    Example(
-        "Serialization",
-        "Presents a video editor, serializes all edits and prints the output to the debugging console.",
-        VideoSerializationExample()),
-    Example(
-        "Serialization Video Segments",
-        "Presents a video editor, serializes all edits including the video segments and prints the output to the debugging console.",
-        VideoSegmentsSerializationExample())
-  ]),
-  Section("Restoring State", [
-    Example(
-        "Deserialization",
-        "Loads a serialized JSON file from the app bundle and presents a video editor with state restored.",
-        VideoDeserializationExample()),
-    Example(
-        "Deserialization Video Segments",
-        "Loads serialized video segments and presents a video editor with state restored.",
-        VideoSegmentsDeserializationExample())
-  ]),
-  Section("Editor Configuration", [
-    Example(
-        "Custom Snapping",
-        "Presents a video editor modally using a custom snapping configuration.",
-        VideoSnappingConfigurationExample()),
-    Example(
-        "Single Tool",
-        "Presents a video editor modally using the single tool mode.",
-        VideoSingleToolExample())
-  ]),
-  Section("Video Composition Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom composition tool configuration.",
-        VideoCompositionConfigurationExample())
-  ]),
-  Section("Trim Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom trim tool configuration.",
-        VideoTrimConfigurationExample()),
-    Example(
-        "Enforce video duration",
-        "Presents a video editor modally using a custom trim tool configuration to enforce a minimum and maximum video length.",
-        VideoForceTrimExample())
-  ]),
-  Section("Audio Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom audio overlay tool configuration.",
-        VideoAudioConfigurationExample()),
-    Example(
-        "Add audio overlay from local path",
-        "Loads audio overlays from the app bundle and presents a video editor modally.",
-        VideoAudioLocalExample()),
-    Example(
-        "Add audio overlay from remote URL",
-        "Loads audio overlays from a remote URL and presents a video editor modally.",
-        VideoAudioRemoteExample()),
-  ]),
-  Section("Transform Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom transform tool configuration.",
-        VideoTransformConfigurationExample())
-  ]),
-  Section("Filter Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom filter tool configuration.",
-        VideoFilterConfigurationExample()),
-    Example(
-        "Add filter from local path",
-        "Loads filters from the app bundle and presents a video editor modally.",
-        VideoFilterLocalExample()),
-    Example(
-        "Add filter from remote URL",
-        "Loads filters from a remote URL and presents a video editor modally.",
-        VideoFilterRemoteExample()),
-  ]),
-  Section("Adjustment Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom adjustment tool configuration.",
-        VideoAdjustmentsConfigurationExample())
-  ]),
-  Section("Focus Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom focus tool configuration.",
-        VideoFocusConfigurationExample())
-  ]),
-  Section("Sticker Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom sticker tool configuration.",
-        VideoStickerConfigurationExample()),
-    Example(
-        "Add sticker from app bundle",
-        "Loads stickers from the app bundle and presents a video editor modally.",
-        VideoStickerLocalExample()),
-    Example(
-        "Add sticker from remote URL",
-        "Loads stickers from a remote URL and presents a video editor modally.",
-        VideoStickerRemoteExample()),
-  ]),
-  Section("Text Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom text tool configuration.",
-        VideoTextConfigurationExample()),
-    Example(
-        "Add font from app bundle",
-        "Loads fonts from the app bundle and presents a video editor modally.",
-        VideoTextLocalExample()),
-    Example(
-        "Add font from remote URL",
-        "Loads fonts from a remote URL and presents a video editor modally.",
-        VideoTextRemoteExample()),
-  ]),
-  Section("Text Design Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom text design tool configuration.",
-        VideoTextDesignConfigurationExample()),
-  ]),
-  Section("Overlay Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom overlay tool configuration.",
-        VideoOverlayConfigurationExample()),
-    Example(
-        "Add overlay from app bundle",
-        "Loads overlays from the app bundle and presents a video editor modally.",
-        VideoOverlayLocalExample()),
-    Example(
-        "Add overlay from remote URL",
-        "Loads overlays from a remote URL and presents a video editor modally.",
-        VideoOverlayRemoteExample()),
-  ]),
-  Section("Frame Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom frame tool configuration.",
-        VideoFramesConfigurationExample()),
-    Example(
-        "Add frame from app bundle",
-        "Loads frames from the app bundle and presents a video editor modally.",
-        VideoFramesLocalExample()),
-    Example(
-        "Add frame from remote URL",
-        "Loads frames from a remote URL and presents a video editor modally.",
-        VideoFramesRemoteExample()),
-  ]),
-  Section("Brush Configuration", [
-    Example(
-        "Custom Configuration",
-        "Presents a video editor modally using a custom brush tool configuration.",
-        VideoBrushConfigurationExample())
-  ]),
-  Section("Solutions Configuration", [
-    Example(
-        "Annotation",
-        "Presents a video editor modally that's configured to work for an annotation use case.",
-        VideoAnnotationExample())
-  ]),
+  // Section("Saving State", [
+  //   Example(
+  //       "Serialization",
+  //       "Presents a video editor, serializes all edits and prints the output to the debugging console.",
+  //       VideoSerializationExample()),
+  //   Example(
+  //       "Serialization Video Segments",
+  //       "Presents a video editor, serializes all edits including the video segments and prints the output to the debugging console.",
+  //       VideoSegmentsSerializationExample())
+  // ]),
+  // Section("Restoring State", [
+  //   Example(
+  //       "Deserialization",
+  //       "Loads a serialized JSON file from the app bundle and presents a video editor with state restored.",
+  //       VideoDeserializationExample()),
+  //   Example(
+  //       "Deserialization Video Segments",
+  //       "Loads serialized video segments and presents a video editor with state restored.",
+  //       VideoSegmentsDeserializationExample())
+  // ]),
+  // Section("Editor Configuration", [
+  //   Example(
+  //       "Custom Snapping",
+  //       "Presents a video editor modally using a custom snapping configuration.",
+  //       VideoSnappingConfigurationExample()),
+  //   Example(
+  //       "Single Tool",
+  //       "Presents a video editor modally using the single tool mode.",
+  //       VideoSingleToolExample())
+  // ]),
+  // Section("Video Composition Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom composition tool configuration.",
+  //       VideoCompositionConfigurationExample())
+  // ]),
+  // Section("Trim Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom trim tool configuration.",
+  //       VideoTrimConfigurationExample()),
+  //   Example(
+  //       "Enforce video duration",
+  //       "Presents a video editor modally using a custom trim tool configuration to enforce a minimum and maximum video length.",
+  //       VideoForceTrimExample())
+  // ]),
+  // Section("Audio Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom audio overlay tool configuration.",
+  //       VideoAudioConfigurationExample()),
+  //   Example(
+  //       "Add audio overlay from local path",
+  //       "Loads audio overlays from the app bundle and presents a video editor modally.",
+  //       VideoAudioLocalExample()),
+  //   Example(
+  //       "Add audio overlay from remote URL",
+  //       "Loads audio overlays from a remote URL and presents a video editor modally.",
+  //       VideoAudioRemoteExample()),
+  // ]),
+  // Section("Transform Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom transform tool configuration.",
+  //       VideoTransformConfigurationExample())
+  // ]),
+  // Section("Filter Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom filter tool configuration.",
+  //       VideoFilterConfigurationExample()),
+  //   Example(
+  //       "Add filter from local path",
+  //       "Loads filters from the app bundle and presents a video editor modally.",
+  //       VideoFilterLocalExample()),
+  //   Example(
+  //       "Add filter from remote URL",
+  //       "Loads filters from a remote URL and presents a video editor modally.",
+  //       VideoFilterRemoteExample()),
+  // ]),
+  // Section("Adjustment Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom adjustment tool configuration.",
+  //       VideoAdjustmentsConfigurationExample())
+  // ]),
+  // Section("Focus Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom focus tool configuration.",
+  //       VideoFocusConfigurationExample())
+  // ]),
+  // Section("Sticker Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom sticker tool configuration.",
+  //       VideoStickerConfigurationExample()),
+  //   Example(
+  //       "Add sticker from app bundle",
+  //       "Loads stickers from the app bundle and presents a video editor modally.",
+  //       VideoStickerLocalExample()),
+  //   Example(
+  //       "Add sticker from remote URL",
+  //       "Loads stickers from a remote URL and presents a video editor modally.",
+  //       VideoStickerRemoteExample()),
+  // ]),
+  // Section("Text Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom text tool configuration.",
+  //       VideoTextConfigurationExample()),
+  //   Example(
+  //       "Add font from app bundle",
+  //       "Loads fonts from the app bundle and presents a video editor modally.",
+  //       VideoTextLocalExample()),
+  //   Example(
+  //       "Add font from remote URL",
+  //       "Loads fonts from a remote URL and presents a video editor modally.",
+  //       VideoTextRemoteExample()),
+  // ]),
+  // Section("Text Design Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom text design tool configuration.",
+  //       VideoTextDesignConfigurationExample()),
+  // ]),
+  // Section("Overlay Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom overlay tool configuration.",
+  //       VideoOverlayConfigurationExample()),
+  //   Example(
+  //       "Add overlay from app bundle",
+  //       "Loads overlays from the app bundle and presents a video editor modally.",
+  //       VideoOverlayLocalExample()),
+  //   Example(
+  //       "Add overlay from remote URL",
+  //       "Loads overlays from a remote URL and presents a video editor modally.",
+  //       VideoOverlayRemoteExample()),
+  // ]),
+  // Section("Frame Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom frame tool configuration.",
+  //       VideoFramesConfigurationExample()),
+  //   Example(
+  //       "Add frame from app bundle",
+  //       "Loads frames from the app bundle and presents a video editor modally.",
+  //       VideoFramesLocalExample()),
+  //   Example(
+  //       "Add frame from remote URL",
+  //       "Loads frames from a remote URL and presents a video editor modally.",
+  //       VideoFramesRemoteExample()),
+  // ]),
+  // Section("Brush Configuration", [
+  //   Example(
+  //       "Custom Configuration",
+  //       "Presents a video editor modally using a custom brush tool configuration.",
+  //       VideoBrushConfigurationExample())
+  // ]),
+  // Section("Solutions Configuration", [
+  //   Example(
+  //       "Annotation",
+  //       "Presents a video editor modally that's configured to work for an annotation use case.",
+  //       VideoAnnotationExample())
+  // ]),
 ];
